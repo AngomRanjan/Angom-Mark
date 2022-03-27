@@ -11,11 +11,8 @@ h1,h2{
     font-weight: bold;
     text-align: center;
 }
-<<<<<<< HEAD
-nav{
-=======
+
 .nav{
->>>>>>> cb756238900d71cbc74402f716b9f0cd4d954060
     display:flex;
     justify-content: flex-end;
     align-items: center;
@@ -49,28 +46,35 @@ nav{
     align-items: center;
     height: 100vh;
     width: 100%;
-<<<<<<< HEAD
 }
-@media (max-width: 800px){
-    section{
-      padding: 20px;
-    } 
+
+.projects-grid{
+    display:flex;
+    justify-content:center;
+    gap: 20px;
+    align-content: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 6rem;
 }
-@media(max-width:550px){ 
-    nav{
-     padding: 0px;
-     align-items: flex-start;
-     }
-    }
-@media screen{
-    body{
-        font-size: 12pt;
-    }
-}   
-@media (orientation: landscape){
-    body{
-        color: rebeccapurple;
-    }
-=======
->>>>>>> cb756238900d71cbc74402f716b9f0cd4d954060
+
+.project {
+    background: var(--main-gray);
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+    border-radius: 2px;
 }
+.project-title {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+}
+.project-image {
+    max-width: 250px;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
