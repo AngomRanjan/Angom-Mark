@@ -11,7 +11,11 @@ h1,h2{
     font-weight: bold;
     text-align: center;
 }
+<<<<<<< HEAD
 nav{
+=======
+.nav{
+>>>>>>> cb756238900d71cbc74402f716b9f0cd4d954060
     display:flex;
     justify-content: flex-end;
     align-items: center;
@@ -45,6 +49,7 @@ nav{
     align-items: center;
     height: 100vh;
     width: 100%;
+<<<<<<< HEAD
 }
 @media (max-width: 800px){
     section{
@@ -66,4 +71,6 @@ nav{
     body{
         color: rebeccapurple;
     }
+=======
+>>>>>>> cb756238900d71cbc74402f716b9f0cd4d954060
 }
