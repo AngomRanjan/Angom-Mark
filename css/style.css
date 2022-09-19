@@ -1,44 +1,54 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
-    padding:0px;
+    padding: 0px;
 }
-a{
+
+a {
     text-decoration: none;
 }
-h1{font-size: 3em;}
-h1,h2{
+
+h1 {
+    font-size: 3em;
+}
+
+h1,
+h2 {
     font-weight: bold;
     text-align: center;
 }
 
-.nav{
-    display:flex;
+.nav {
+    display: flex;
     justify-content: flex-end;
     align-items: center;
-    position:fixed;
+    position: fixed;
     width: 100%;
     height: 70px;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     margin: 0px;
     padding: 0p;
     background-color: rgb(161, 29, 35);
 }
-.nav-list{
+
+.nav-list {
     display: flex;
     margin-right: 7px;
     list-style: none;
 }
-.nav-list a{
+
+.nav-list a {
     display: block;
     font-size: 1.7em;
     padding: .7em;
     color: bisque;
 }
-.nav-list a:hover{
+
+.nav-list a:hover {
     background-color: rgb(28, 28, 71);
 }
+
 #welcome-section {
     display: flex;
     flex-direction: column;
@@ -48,9 +58,9 @@ h1,h2{
     width: 100%;
 }
 
-.projects-grid{
-    display:flex;
-    justify-content:center;
+.projects-grid {
+    display: flex;
+    justify-content: center;
     gap: 20px;
     align-content: center;
     width: 100%;
@@ -63,18 +73,21 @@ h1,h2{
     box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
     border-radius: 2px;
 }
+
 .project-title {
     font-size: 2rem;
     padding: 2rem 0.5rem;
 }
+
 .project-image {
     max-width: 250px;
     height: 250px;
     width: 100%;
     object-fit: cover;
 }
+
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
+        background-color: lightblue;
     }
-  }
+}
